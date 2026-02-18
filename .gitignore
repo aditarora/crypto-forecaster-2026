@@ -1,0 +1,30 @@
+# Python / Streamlit
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Model files (large, don't need to upload)
+*.pth
+*.h5
+*.bin
+
+# Secrets / keys (even if empty)
+.env
+secrets.py
+*.key
+*.pem
+*.secret
+
+# Large data files
+*.csv
+*.json
+*.parquet
+data/
+notebooks/
